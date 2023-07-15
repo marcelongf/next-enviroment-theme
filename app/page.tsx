@@ -10,7 +10,8 @@ const getInfos = async () => {
 
 export default async function Home() {
 
-  const { title } = await getInfos();
+  // const { title } = await getInfos();
+  const title = 'oi'
 
   return (
     <main className={styles.main}>
